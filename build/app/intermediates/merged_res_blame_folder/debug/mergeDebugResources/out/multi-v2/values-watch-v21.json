@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.super_app-mergeDebugResources-28:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/alphaisolutions/.gradle/caches/transforms-3/1542cb419c1842c8f1615912f26be1cb/transformed/appcompat-1.6.1/res/values-watch-v21/values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}
