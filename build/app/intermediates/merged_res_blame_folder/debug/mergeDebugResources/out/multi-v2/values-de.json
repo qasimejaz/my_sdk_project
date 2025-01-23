@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.super_app-mergeDebugResources-28:/values-de/values-de.xml",
+            "outputFile": "com.example.my_sdk.app-mergeDebugResources-28:/values-de/values-de.xml",
             "map": [
                 {
                     "source": "/Users/alphaisolutions/.gradle/caches/transforms-3/52e18c112b3c464ebfad2622182d3ae8/transformed/core-1.13.1/res/values-de/values-de.xml",

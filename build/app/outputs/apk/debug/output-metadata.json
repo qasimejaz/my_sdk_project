@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.example.super_app",
+  "applicationId": "com.example.my_sdk",
   "variantName": "debug",
   "elements": [
     {

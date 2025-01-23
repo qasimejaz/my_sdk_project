@@ -1,4 +1,4 @@
-# super_app
+# my_sdk
 
 A new Flutter project.
 

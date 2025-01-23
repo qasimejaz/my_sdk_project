@@ -338,13 +338,13 @@
       "languageVersion": "3.3"
     },
     {
-      "name": "super_app",
+      "name": "my_sdk",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2025-01-23T10:53:29.139816Z",
+  "generated": "2025-01-23T11:30:50.363529Z",
   "generator": "pub",
   "generatorVersion": "3.5.4",
   "flutterRoot": "file:///Users/alphaisolutions/Desktop/flutterSDK/flutter",

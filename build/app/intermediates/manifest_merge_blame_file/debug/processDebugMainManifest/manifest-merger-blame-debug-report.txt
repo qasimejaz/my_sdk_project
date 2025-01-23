@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.super_app"
+3    package="com.example.my_sdk"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
@@ -47,12 +47,12 @@
 33
 34    <permission
 34-->[androidx.core:core:1.13.1] /Users/alphaisolutions/.gradle/caches/transforms-3/52e18c112b3c464ebfad2622182d3ae8/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
-35        android:name="com.example.super_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+35        android:name="com.example.my_sdk.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
 35-->[androidx.core:core:1.13.1] /Users/alphaisolutions/.gradle/caches/transforms-3/52e18c112b3c464ebfad2622182d3ae8/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
 36        android:protectionLevel="signature" />
 36-->[androidx.core:core:1.13.1] /Users/alphaisolutions/.gradle/caches/transforms-3/52e18c112b3c464ebfad2622182d3ae8/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
 37
-38    <uses-permission android:name="com.example.super_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+38    <uses-permission android:name="com.example.my_sdk.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 38-->[androidx.core:core:1.13.1] /Users/alphaisolutions/.gradle/caches/transforms-3/52e18c112b3c464ebfad2622182d3ae8/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
 38-->[androidx.core:core:1.13.1] /Users/alphaisolutions/.gradle/caches/transforms-3/52e18c112b3c464ebfad2622182d3ae8/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
 39
@@ -63,9 +63,9 @@
 43        android:debuggable="true"
 44        android:extractNativeLibs="true"
 45        android:icon="@mipmap/ic_launcher"
-46        android:label="super_app" >
+46        android:label="my_sdk" >
 47        <activity
-48            android:name="com.example.super_app.MainActivity"
+48            android:name="com.example.my_sdk.MainActivity"
 49            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
 50            android:exported="true"
 51            android:hardwareAccelerated="true"
@@ -102,7 +102,7 @@
 81-->[:open_file_android] /Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/build/open_file_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:9-19:20
 82            android:name="com.crazecoder.openfile.FileProvider"
 82-->[:open_file_android] /Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/build/open_file_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-64
-83            android:authorities="com.example.super_app.fileProvider.com.crazecoder.openfile"
+83            android:authorities="com.example.my_sdk.fileProvider.com.crazecoder.openfile"
 83-->[:open_file_android] /Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/build/open_file_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-88
 84            android:exported="false"
 84-->[:open_file_android] /Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/build/open_file_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:13-37
@@ -135,7 +135,7 @@
 99-->[androidx.emoji2:emoji2:1.2.0] /Users/alphaisolutions/.gradle/caches/transforms-3/3a415fb0812c1e56b19cf691fdad1eaa/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 100            android:name="androidx.startup.InitializationProvider"
 100-->[androidx.emoji2:emoji2:1.2.0] /Users/alphaisolutions/.gradle/caches/transforms-3/3a415fb0812c1e56b19cf691fdad1eaa/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-101            android:authorities="com.example.super_app.androidx-startup"
+101            android:authorities="com.example.my_sdk.androidx-startup"
 101-->[androidx.emoji2:emoji2:1.2.0] /Users/alphaisolutions/.gradle/caches/transforms-3/3a415fb0812c1e56b19cf691fdad1eaa/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
 102            android:exported="false" >
 102-->[androidx.emoji2:emoji2:1.2.0] /Users/alphaisolutions/.gradle/caches/transforms-3/3a415fb0812c1e56b19cf691fdad1eaa/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37

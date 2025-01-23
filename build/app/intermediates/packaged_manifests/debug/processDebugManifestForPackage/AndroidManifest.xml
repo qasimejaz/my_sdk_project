@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.super_app"
+    package="com.example.my_sdk"
     android:versionCode="1"
     android:versionName="1.0.0" >
 
@@ -32,10 +32,10 @@
     </queries>
 
     <permission
-        android:name="com.example.super_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.example.my_sdk.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.super_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.example.my_sdk.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:name="android.app.Application"
@@ -43,9 +43,9 @@
         android:debuggable="true"
         android:extractNativeLibs="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="super_app" >
+        android:label="my_sdk" >
         <activity
-            android:name="com.example.super_app.MainActivity"
+            android:name="com.example.my_sdk.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:exported="true"
             android:hardwareAccelerated="true"
@@ -80,7 +80,7 @@
 
         <provider
             android:name="com.crazecoder.openfile.FileProvider"
-            android:authorities="com.example.super_app.fileProvider.com.crazecoder.openfile"
+            android:authorities="com.example.my_sdk.fileProvider.com.crazecoder.openfile"
             android:exported="false"
             android:grantUriPermissions="true"
             android:requestLegacyExternalStorage="true" >
@@ -98,7 +98,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.super_app.androidx-startup"
+            android:authorities="com.example.my_sdk.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"
