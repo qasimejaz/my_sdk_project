@@ -13,17 +13,17 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->/Users/alphaisolutions/Desktop/super_app/android/app/src/debug/AndroidManifest.xml:6:5-66
-15-->/Users/alphaisolutions/Desktop/super_app/android/app/src/debug/AndroidManifest.xml:6:22-64
+15-->/Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/android/app/src/debug/AndroidManifest.xml:6:5-66
+15-->/Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/android/app/src/debug/AndroidManifest.xml:6:22-64
 16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-16-->/Users/alphaisolutions/Desktop/super_app/android/app/src/main/AndroidManifest.xml:2:5-81
-16-->/Users/alphaisolutions/Desktop/super_app/android/app/src/main/AndroidManifest.xml:2:22-78
+16-->/Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/android/app/src/main/AndroidManifest.xml:2:5-81
+16-->/Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/android/app/src/main/AndroidManifest.xml:2:22-78
 17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-17-->/Users/alphaisolutions/Desktop/super_app/android/app/src/main/AndroidManifest.xml:3:5-80
-17-->/Users/alphaisolutions/Desktop/super_app/android/app/src/main/AndroidManifest.xml:3:22-77
+17-->/Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/android/app/src/main/AndroidManifest.xml:3:5-80
+17-->/Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/android/app/src/main/AndroidManifest.xml:3:22-77
 18    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
-18-->/Users/alphaisolutions/Desktop/super_app/android/app/src/main/AndroidManifest.xml:4:5-83
-18-->/Users/alphaisolutions/Desktop/super_app/android/app/src/main/AndroidManifest.xml:4:22-80
+18-->/Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/android/app/src/main/AndroidManifest.xml:4:5-83
+18-->/Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/android/app/src/main/AndroidManifest.xml:4:22-80
 19    <!--
 20 Required to query activities that can process text, see:
 21         https://developer.android.com/training/package-visibility and
@@ -32,16 +32,16 @@
 24         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
 25    -->
 26    <queries>
-26-->/Users/alphaisolutions/Desktop/super_app/android/app/src/main/AndroidManifest.xml:44:5-49:15
+26-->/Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/android/app/src/main/AndroidManifest.xml:44:5-49:15
 27        <intent>
-27-->/Users/alphaisolutions/Desktop/super_app/android/app/src/main/AndroidManifest.xml:45:9-48:18
+27-->/Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/android/app/src/main/AndroidManifest.xml:45:9-48:18
 28            <action android:name="android.intent.action.PROCESS_TEXT" />
-28-->/Users/alphaisolutions/Desktop/super_app/android/app/src/main/AndroidManifest.xml:46:13-72
-28-->/Users/alphaisolutions/Desktop/super_app/android/app/src/main/AndroidManifest.xml:46:21-70
+28-->/Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/android/app/src/main/AndroidManifest.xml:46:13-72
+28-->/Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/android/app/src/main/AndroidManifest.xml:46:21-70
 29
 30            <data android:mimeType="text/plain" />
-30-->/Users/alphaisolutions/Desktop/super_app/android/app/src/main/AndroidManifest.xml:47:13-50
-30-->/Users/alphaisolutions/Desktop/super_app/android/app/src/main/AndroidManifest.xml:47:19-48
+30-->/Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/android/app/src/main/AndroidManifest.xml:47:13-50
+30-->/Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/android/app/src/main/AndroidManifest.xml:47:19-48
 31        </intent>
 32    </queries>
 33
@@ -99,23 +99,23 @@
 79            android:value="2" />
 80
 81        <provider
-81-->[:open_file_android] /Users/alphaisolutions/Desktop/super_app/build/open_file_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:9-19:20
+81-->[:open_file_android] /Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/build/open_file_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:9-19:20
 82            android:name="com.crazecoder.openfile.FileProvider"
-82-->[:open_file_android] /Users/alphaisolutions/Desktop/super_app/build/open_file_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-64
+82-->[:open_file_android] /Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/build/open_file_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-64
 83            android:authorities="com.example.super_app.fileProvider.com.crazecoder.openfile"
-83-->[:open_file_android] /Users/alphaisolutions/Desktop/super_app/build/open_file_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-88
+83-->[:open_file_android] /Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/build/open_file_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-88
 84            android:exported="false"
-84-->[:open_file_android] /Users/alphaisolutions/Desktop/super_app/build/open_file_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:13-37
+84-->[:open_file_android] /Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/build/open_file_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:13-37
 85            android:grantUriPermissions="true"
-85-->[:open_file_android] /Users/alphaisolutions/Desktop/super_app/build/open_file_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:13-47
+85-->[:open_file_android] /Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/build/open_file_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:13-47
 86            android:requestLegacyExternalStorage="true" >
-86-->[:open_file_android] /Users/alphaisolutions/Desktop/super_app/build/open_file_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-56
+86-->[:open_file_android] /Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/build/open_file_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-56
 87            <meta-data
-87-->[:open_file_android] /Users/alphaisolutions/Desktop/super_app/build/open_file_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:13-18:53
+87-->[:open_file_android] /Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/build/open_file_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:13-18:53
 88                android:name="android.support.FILE_PROVIDER_PATHS"
-88-->[:open_file_android] /Users/alphaisolutions/Desktop/super_app/build/open_file_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:17-67
+88-->[:open_file_android] /Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/build/open_file_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:17-67
 89                android:resource="@xml/filepaths" />
-89-->[:open_file_android] /Users/alphaisolutions/Desktop/super_app/build/open_file_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:17-50
+89-->[:open_file_android] /Users/alphaisolutions/Desktop/DeveloperPortalWeb/my_sdk_project/build/open_file_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:17-50
 90        </provider>
 91
 92        <uses-library
